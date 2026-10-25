@@ -1,0 +1,311 @@
+{
+  "metadata": {
+    "title": "Taipan KPI Dashboard",
+    "period": "YYYY-MM-DD ~ YYYY-MM-DD",
+    "created_at": "YYYY-MM-DD",
+    "created_by": "[담당자]",
+    "last_updated": "YYYY-MM-DD"
+  },
+  "summary": {
+    "total_average": 74,
+    "status": "yellow",
+    "trend": "stable",
+    "alert_level": "warning"
+  },
+  "kpis": [
+    {
+      "id": "kpi_001",
+      "name": "업무 생산성 향상",
+      "priority": 1,
+      "target": 100,
+      "current": 85,
+      "progress_rate": 85,
+      "status": "yellow",
+      "color": "#FFC107",
+      "trend": "stable",
+      "evidence": {
+        "completed_tasks": 0,
+        "in_progress": 0,
+        "delayed": 0
+      },
+      "bottleneck": "구체적 장애요소",
+      "recommended_actions": [
+        "액션 1",
+        "액션 2",
+        "액션 3"
+      ],
+      "owner": "[담당자]",
+      "last_updated": "YYYY-MM-DD"
+    },
+    {
+      "id": "kpi_002",
+      "name": "프로젝트 가시성 확보",
+      "priority": 2,
+      "target": 100,
+      "current": 72,
+      "progress_rate": 72,
+      "status": "yellow",
+      "color": "#FFC107",
+      "trend": "down",
+      "evidence": {
+        "on_time_completion": 70,
+        "quality_standard": 75,
+        "risk_early_detection": 65
+      },
+      "bottleneck": "구체적 장애요소",
+      "recommended_actions": [
+        "액션 1",
+        "액션 2"
+      ],
+      "owner": "[담당자]",
+      "last_updated": "YYYY-MM-DD"
+    },
+    {
+      "id": "kpi_003",
+      "name": "KPI 달성 지원",
+      "priority": 3,
+      "target": 100,
+      "current": 68,
+      "progress_rate": 68,
+      "status": "yellow",
+      "color": "#FFC107",
+      "trend": "down",
+      "evidence": {
+        "quarterly_kpi": 65,
+        "team_kpi": 70,
+        "personal_kpi": 68
+      },
+      "bottleneck": "구체적 장애요소",
+      "recommended_actions": [
+        "액션 1",
+        "액션 2"
+      ],
+      "owner": "[담당자]",
+      "last_updated": "YYYY-MM-DD"
+    },
+    {
+      "id": "kpi_004",
+      "name": "문서화 자동화",
+      "priority": 4,
+      "target": 100,
+      "current": 90,
+      "progress_rate": 90,
+      "status": "green",
+      "color": "#4CAF50",
+      "trend": "up",
+      "evidence": {
+        "completed_docs": 0,
+        "in_progress": 0,
+        "incomplete": 0
+      },
+      "bottleneck": null,
+      "recommended_actions": [
+        "계획대로 진행, 다음주 마무리"
+      ],
+      "owner": "[담당자]",
+      "last_updated": "YYYY-MM-DD"
+    },
+    {
+      "id": "kpi_005",
+      "name": "지식 축적",
+      "priority": 5,
+      "target": 100,
+      "current": 75,
+      "progress_rate": 75,
+      "status": "yellow",
+      "color": "#FFC107",
+      "trend": "stable",
+      "evidence": {
+        "documents": 0,
+        "sharing_sessions": 0,
+        "learning_materials": 0
+      },
+      "bottleneck": "구체적 장애요소",
+      "recommended_actions": [
+        "액션 1"
+      ],
+      "owner": "[담당자]",
+      "last_updated": "YYYY-MM-DD"
+    },
+    {
+      "id": "kpi_006",
+      "name": "협업 품질 향상",
+      "priority": 6,
+      "target": 100,
+      "current": 80,
+      "progress_rate": 80,
+      "status": "green",
+      "color": "#4CAF50",
+      "trend": "stable",
+      "evidence": {
+        "meeting_attendance": 95,
+        "feedback_response_time": "2시간",
+        "tool_usage": 85
+      },
+      "bottleneck": null,
+      "recommended_actions": [
+        "현 상태 유지"
+      ],
+      "owner": "[담당자]",
+      "last_updated": "YYYY-MM-DD"
+    },
+    {
+      "id": "kpi_007",
+      "name": "반복업무 최소화",
+      "priority": 7,
+      "target": 50,
+      "current": 35,
+      "progress_rate": 70,
+      "status": "yellow",
+      "color": "#FFC107",
+      "trend": "up",
+      "evidence": {
+        "automated_tasks": 0,
+        "time_saved_per_week": "XX시간",
+        "tools_adopted": 0
+      },
+      "bottleneck": "구체적 장애요소",
+      "recommended_actions": [
+        "자동화 도구 추가 도입",
+        "프로세스 개선"
+      ],
+      "owner": "[담당자]",
+      "last_updated": "YYYY-MM-DD"
+    },
+    {
+      "id": "kpi_008",
+      "name": "리스크 조기 발견",
+      "priority": 8,
+      "target": 100,
+      "current": 45,
+      "progress_rate": 45,
+      "status": "red",
+      "color": "#F44336",
+      "trend": "down",
+      "evidence": {
+        "identified_risks": 0,
+        "early_response": 0,
+        "unaddressed_risks": 0
+      },
+      "bottleneck": "리스크 모니터링 체계 부족",
+      "recommended_actions": [
+        "리스크 대시보드 즉시 구축",
+        "주간 리스크 검토 미팅 실시",
+        "담당자 배치"
+      ],
+      "owner": "[담당자]",
+      "last_updated": "YYYY-MM-DD",
+      "urgent": true
+    }
+  ],
+  "action_items": [
+    {
+      "id": "action_001",
+      "title": "[액션 명]",
+      "owner": "[담당자]",
+      "deadline": "YYYY-MM-DD",
+      "status": "in_progress",
+      "priority": "high",
+      "note": "[메모]"
+    },
+    {
+      "id": "action_002",
+      "title": "[액션 명]",
+      "owner": "[담당자]",
+      "deadline": "YYYY-MM-DD",
+      "status": "in_progress",
+      "priority": "high",
+      "note": "[메모]"
+    },
+    {
+      "id": "action_003",
+      "title": "[액션 명]",
+      "owner": "[담당자]",
+      "deadline": "YYYY-MM-DD",
+      "status": "completed",
+      "priority": "medium",
+      "note": "[메모]"
+    }
+  ],
+  "risks": [
+    {
+      "id": "risk_001",
+      "title": "[리스크 1]",
+      "impact": "high",
+      "probability": 0.7,
+      "severity": "high",
+      "mitigation": "[대응]",
+      "owner": "[담당자]"
+    },
+    {
+      "id": "risk_002",
+      "title": "[리스크 2]",
+      "impact": "medium",
+      "probability": 0.5,
+      "severity": "medium",
+      "mitigation": "[대응]",
+      "owner": "[담당자]"
+    },
+    {
+      "id": "risk_003",
+      "title": "[리스크 3]",
+      "impact": "low",
+      "probability": 0.3,
+      "severity": "low",
+      "mitigation": "[대응]",
+      "owner": "[담당자]"
+    }
+  ],
+  "weekly_trend": [
+    {
+      "week": 1,
+      "average": 75,
+      "status": "yellow"
+    },
+    {
+      "week": 2,
+      "average": 76,
+      "status": "yellow"
+    },
+    {
+      "week": 3,
+      "average": 74,
+      "status": "yellow"
+    },
+    {
+      "week": 4,
+      "average": 72,
+      "status": "yellow"
+    },
+    {
+      "week": 5,
+      "average": 74,
+      "status": "yellow"
+    }
+  ],
+  "next_week_priorities": [
+    {
+      "priority": 1,
+      "kpi_id": "kpi_008",
+      "title": "리스크 조기발견 개선 (45%)",
+      "severity": "critical"
+    },
+    {
+      "priority": 2,
+      "kpi_id": "kpi_001",
+      "title": "업무 생산성 최적화 (85%)",
+      "severity": "high"
+    },
+    {
+      "priority": 3,
+      "kpi_id": "kpi_002",
+      "title": "프로젝트 가시성 강화 (72%)",
+      "severity": "high"
+    }
+  ],
+  "approvals": {
+    "reviewed_by": "[담당자]",
+    "approved_by": "[리더]",
+    "final_update": "YYYY-MM-DD"
+  }
+}

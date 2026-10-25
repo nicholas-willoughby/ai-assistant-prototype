@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "title": "Taipan Weekly Report",
+    "week": "YYYY-MM-DD ~ YYYY-MM-DD (Week XX)",
+    "reporter": "[이름]",
+    "role": "[직급/역할]",
+    "submitted_date": "YYYY-MM-DD",
+    "reviewed_by": "[리더명]",
+    "reviewed_date": "YYYY-MM-DD",
+    "approved_by": "[관리자명]",
+    "approved_date": "YYYY-MM-DD"
+  },
+  "executive_summary": {
+    "headline": "팀 협업으로 3개 프로젝트 진도 20% 달성, 1개 리스크 선제 대응",
+    "key_achievements": [
+      "[성과 1]",
+      "[성과 2]",
+      "[성과 3]"
+    ],
+    "key_issues": [
+      "[이슈 1]",
+      "[이슈 2]"
+    ],
+    "next_week_focus": "[주요 목표 1개]"
+  },
+  "completed_tasks": {
+    "total": 3,
+    "completion_rate": "60%",
+    "tasks": [
+      {
+        "id": "task_001",
+        "name": "[작업명]",
+        "estimated_days": 2,
+        "actual_days": 1.5,
+        "status": "completed",
+        "note": "예정보다 빠름",
+        "impact_kpi": "[KPI명]",
+        "impact_percentage": 5
+      },
+      {
+        "id": "task_002",
+        "name": "[작업명]",
+        "estimated_days": 3,
+        "actual_days": 3,
+        "status": "completed",
+        "note": "정상 진행",
+        "impact_kpi": "[KPI명]",
+        "impact_percentage": 3
+      },
+      {
+        "id": "task_003",
+        "name": "[작업명]",
+        "estimated_days": 2,
+        "actual_days": 2.5,
+        "status": "completed",
+        "note": "예정보다 느림",
+        "impact_kpi": "[KPI명]",
+        "impact_percentage": 2
+      }
+    ],
+    "impact_analysis": {
+      "project_progress": "+15%",
+      "kpi_contribution": "+5%",
+      "team_collaboration": "2명과 협업"
+    }
+  },
+  "in_progress_tasks": {
+    "total": 3,
+    "progress_rate": "60%",
+    "tasks": [
+      {
+        "id": "progress_001",
+        "name": "[작업명]",
+        "start_date": "YYYY-MM-DD",
+        "due_date": "YYYY-MM-DD",
+        "progress_percentage": 60,
+        "bottleneck": "[병목]",
+        "priority": "high"
+      },
+      {
+        "id": "progress_002",
+        "name": "[작업명]",
+        "start_date": "YYYY-MM-DD",
+        "due_date": "YYYY-MM-DD",
+        "progress_percentage": 40,
+        "bottleneck": "[병목]",
+        "priority": "medium"
+      },
+      {
+        "id": "progress_003",
+        "name": "[작업명]",
+        "start_date": "YYYY-MM-DD",
+        "due_date": "YYYY-MM-DD",
+        "progress_percentage": 20,
+        "bottleneck": "[병목]",
+        "priority": "medium"
+      }
+    ],
+    "summary": {
+      "planned_tasks": 5,
+      "in_progress": 3,
+      "not_started": 2
+    }
+  },
+  "blocked_delayed_tasks": {
+    "total": 2,
+    "tasks": [
+      {
+        "id": "blocked_001",
+        "name": "[작업명]",
+        "due_date": "YYYY-MM-DD",
+        "current_progress": "50%",
+        "delayed_days": 2,
+        "cause": "[원인]",
+        "replanned_date": "YYYY-MM-DD",
+        "mitigation": "[해결 방안]",
+        "project_impact": "[프로젝트명] -3일",
+        "kpi_impact": "[KPI명] -10%"
+      },
+      {
+        "id": "blocked_002",
+        "name": "[작업명]",
+        "due_date": "YYYY-MM-DD",
+        "current_progress": "30%",
+        "delayed_days": 1,
+        "cause": "[원인]",
+        "replanned_date": "YYYY-MM-DD",
+        "mitigation": "[해결 방안]",
+        "project_impact": "XX시간",
+        "kpi_impact": "N/A"
+      }
+    ],
+    "resolution_plan": [
+      "[해결 방안 1]",
+      "[해결 방안 2]",
+      "[해결 방안 3]"
+    ]
+  },
+  "kpi_contributions": {
+    "total_contribution": "+16%",
+    "kpis": [
+      {
+        "id": "kpi_001",
+        "name": "업무 생산성 향상",
+        "contribution": "+3%",
+        "evidence": {
+          "completed_tasks": 3,
+          "productivity_index": 1.2,
+          "efficiency_improvement": "XX%"
+        },
+        "proof": "[구체적 수치/증거]"
+      },
+      {
+        "id": "kpi_002",
+        "name": "프로젝트 가시성 확보",
+        "contribution": "+2%",
+        "evidence": {
+          "reports_written": "X건",
+          "status_updates": "X회",
+          "transparency_improvement": "XX%"
+        },
+        "proof": "[구체적 수치/증거]"
+      },
+      {
+        "id": "kpi_003",
+        "name": "KPI 달성 지원",
+        "contribution": "+1%",
+        "evidence": {
+          "related_tasks": "X개",
+          "contribution_ratio": "XX%"
+        },
+        "proof": "[구체적 수치/증거]"
+      },
+      {
+        "id": "kpi_004",
+        "name": "문서화 자동화",
+        "contribution": "+2%",
+        "evidence": {
+          "documents_created": "X개",
+          "automated_processes": "X개",
+          "time_saved": "XX시간"
+        },
+        "proof": "[구체적 수치/증거]"
+      },
+      {
+        "id": "kpi_005",
+        "name": "지식 축적",
+        "contribution": "+3%",
+        "evidence": {
+          "learning_materials": "X개",
+          "sharing_sessions": "X회",
+          "team_learning_contribution": "XX%"
+        },
+        "proof": "[구체적 수치/증거]"
+      },
+      {
+        "id": "kpi_006",
+        "name": "협업 품질 향상",
+        "contribution": "+2%",
+        "evidence": {
+          "collaborators": "X명",
+          "feedback_provided": "X건",
+          "satisfaction": "XX%"
+        },
+        "proof": "[구체적 수치/증거]"
+      },
+      {
+        "id": "kpi_007",
+        "name": "반복업무 최소화",
+        "contribution": "+1%",
+        "evidence": {
+          "automation_attempts": "X개",
+          "time_saved_per_week": "XX시간",
+          "efficiency_improvement": "XX%"
+        },
+        "proof": "[구체적 수치/증거]"
+      },
+      {
+        "id": "kpi_008",
+        "name": "리스크 조기 발견",
+        "contribution": "+2%",
+        "evidence": {
+          "risks_identified": "X개",
+          "early_response": "X개",
+          "loss_prevention": "XX%"
+        },
+        "proof": "[구체적 수치/증거]"
+      }
+    ]
+  },
+  "lessons_learned": {
+    "insights": [
+      {
+        "category": "기술",
+        "learning": "[배운 내용]",
+        "application": "[어디에 적용?]",
+        "next_attempt": "[다음 시도]"
+      },
+      {
+        "category": "프로세스",
+        "learning": "[배운 내용]",
+        "application": "[어디에 적용?]",
+        "next_attempt": "[다음 시도]"
+      },
+      {
+        "category": "협업",
+        "learning": "[배운 내용]",
+        "application": "[어디에 적용?]",
+        "next_attempt": "[다음 시도]"
+      },
+      {
+        "category": "효율",
+        "learning": "[배운 내용]",
+        "application": "[어디에 적용?]",
+        "next_attempt": "[다음 시도]"
+      }
+    ],
+    "best_practices": [
+      {
+        "title": "[우수 사례 1]",
+        "description": "[설명]",
+        "result": "[결과]",
+        "reusability": "[재사용 계획]"
+      },
+      {
+        "title": "[우수 사례 2]",
+        "description": "[설명]",
+        "result": "[결과]",
+        "reusability": "[재사용 계획]"
+      }
+    ],
+    "improvements_needed": [
+      {
+        "issue": "[문제점]",
+        "impact": "medium",
+        "solution": "[개선방안]",
+        "timing": "즉시"
+      },
+      {
+        "issue": "[문제점]",
+        "impact": "high",
+        "solution": "[개선방안]",
+        "timing": "이번주"
+      },
+      {
+        "issue": "[문제점]",
+        "impact": "low",
+        "solution": "[개선방안]",
+        "timing": "다음주"
+      }
+    ]
+  },
+  "next_week_plan": {
+    "priorities": [
+      {
+        "rank": 1,
+        "goal": "[목표 설명]",
+        "estimated_days": 2,
+        "resources_needed": "[리소스]",
+        "success_criteria": "[기준]",
+        "expected_kpi_impact": "+X%"
+      },
+      {
+        "rank": 2,
+        "goal": "[목표 설명]",
+        "estimated_days": 3,
+        "resources_needed": "[리소스]",
+        "success_criteria": "[기준]",
+        "expected_kpi_impact": "+X%"
+      },
+      {
+        "rank": 3,
+        "goal": "[목표 설명]",
+        "estimated_days": 1,
+        "resources_needed": "[리소스]",
+        "success_criteria": "[기준]",
+        "expected_kpi_impact": "+X%"
+      }
+    ],
+    "planned_tasks": [
+      {
+        "id": "plan_001",
+        "task": "[작업명]",
+        "estimated_days": 2,
+        "assigned_to": "[담당자]",
+        "dependency": "독립",
+        "notes": "-"
+      },
+      {
+        "id": "plan_002",
+        "task": "[작업명]",
+        "estimated_days": 3,
+        "assigned_to": "[담당자]",
+        "dependency": "[의존]",
+        "notes": "-"
+      },
+      {
+        "id": "plan_003",
+        "task": "[작업명]",
+        "estimated_days": 1,
+        "assigned_to": "[담당자]",
+        "dependency": "독립",
+        "notes": "-"
+      },
+      {
+        "id": "plan_004",
+        "task": "[작업명]",
+        "estimated_days": 2,
+        "assigned_to": "[담당자]",
+        "dependency": "[의존]",
+        "notes": "-"
+      }
+    ]
+  },
+  "issues_and_risks": {
+    "high_priority_issues": [
+      {
+        "id": "issue_001",
+        "title": "[이슈명]",
+        "impact": "high",
+        "description": "[현상]",
+        "mitigation": "[대응방안]",
+        "status": "in_progress"
+      },
+      {
+        "id": "issue_002",
+        "title": "[이슈명]",
+        "impact": "high",
+        "description": "[현상]",
+        "mitigation": "[대응방안]",
+        "status": "resolved"
+      }
+    ],
+    "medium_priority_issues": [
+      {
+        "id": "issue_003",
+        "title": "[이슈명]",
+        "impact": "medium",
+        "description": "[현상]",
+        "mitigation": "[대응방안]",
+        "status": "in_progress"
+      }
+    ],
+    "risks": [
+      {
+        "id": "risk_001",
+        "title": "[리스크]",
+        "probability": 0.7,
+        "impact": "high",
+        "severity": "high",
+        "mitigation": "[대응]",
+        "monitoring_frequency": "주 2회"
+      },
+      {
+        "id": "risk_002",
+        "title": "[리스크]",
+        "probability": 0.5,
+        "impact": "medium",
+        "severity": "medium",
+        "mitigation": "[대응]",
+        "monitoring_frequency": "주 1회"
+      },
+      {
+        "id": "risk_003",
+        "title": "[리스크]",
+        "probability": 0.3,
+        "impact": "low",
+        "severity": "low",
+        "mitigation": "[대응]",
+        "monitoring_frequency": "월 1회"
+      }
+    ]
+  },
+  "collaboration": {
+    "team_collaboration": {
+      "total_hours": 0,
+      "collaborators_count": 0,
+      "average_satisfaction": 4.5,
+      "collaborators": [
+        {
+          "name": "[이름]",
+          "collaboration_content": "[내용]",
+          "hours_spent": 0,
+          "effectiveness": "[효과]",
+          "satisfaction": 5
+        }
+      ]
+    },
+    "external_collaboration": [
+      {
+        "department": "[부서명]",
+        "collaboration": "[내용]",
+        "status": "진행중",
+        "next_meeting": "YYYY-MM-DD"
+      }
+    ],
+    "communication_summary": {
+      "team_meetings": {
+        "count": 0,
+        "hours": 0
+      },
+      "one_on_one_meetings": {
+        "count": 0,
+        "with_leader": 0
+      },
+      "feedback_provided": 0,
+      "feedback_received": 0,
+      "slack_email_messages": 0
+    }
+  },
+  "performance_metrics": {
+    "personal_kpi": [
+      {
+        "kpi": "[KPI 1]",
+        "target": "100%",
+        "current": "85%",
+        "progress_rate": "85%",
+        "status": "yellow"
+      },
+      {
+        "kpi": "[KPI 2]",
+        "target": "100%",
+        "current": "90%",
+        "progress_rate": "90%",
+        "status": "green"
+      },
+      {
+        "kpi": "[KPI 3]",
+        "target": "100%",
+        "current": "75%",
+        "progress_rate": "75%",
+        "status": "yellow"
+      }
+    ],
+    "personal_kpi_average": "83%",
+    "productivity_metrics": {
+      "completed_tasks": {
+        "target": 5,
+        "this_week": 3,
+        "last_week": 4,
+        "trend": "down"
+      },
+      "plan_vs_actual": {
+        "target": "100%",
+        "this_week": "60%",
+        "last_week": "80%",
+        "trend": "down"
+      },
+      "efficiency": {
+        "target": "1.0倍",
+        "this_week": "1.2倍",
+        "last_week": "1.1倍",
+        "trend": "up"
+      },
+      "quality_score": {
+        "target": 90,
+        "this_week": 88,
+        "last_week": 89,
+        "trend": "down"
+      }
+    }
+  },
+  "tools_and_resources": {
+    "tools_used": [
+      {
+        "tool": "[도구명]",
+        "purpose": "[용도]",
+        "hours_used": 0,
+        "efficiency": "높음",
+        "improvement_suggestion": "[개선사항]"
+      },
+      {
+        "tool": "[도구명]",
+        "purpose": "[용도]",
+        "hours_used": 0,
+        "efficiency": "중간",
+        "improvement_suggestion": "[개선사항]"
+      }
+    ],
+    "tool_improvement_requests": [
+      "[도구 1] - [개선사항]",
+      "[도구 2] - [개선사항]"
+    ]
+  },
+  "learning_and_wellness": {
+    "learning_hours": {
+      "education_training": 0,
+      "self_development": 0,
+      "technology_acquisition": 0,
+      "total": 0
+    },
+    "wellness": {
+      "working_hours_per_week": 0,
+      "rest_hours": 0,
+      "stress_level": "낮음",
+      "work_life_balance": "[평가]"
+    }
+  },
+  "highlights": {
+    "best_performance": "[성과 설명] - [영향도]",
+    "best_practice": "[사례 설명] - [영향도]",
+    "improvement_point": "[포인트 설명] - [개선 예상]"
+  },
+  "additional_notes": "[추가 의견이 있으면 작성]",
+  "checklist": [
+    {
+      "item": "모든 작업 상태 업데이트 완료",
+      "completed": false
+    },
+    {
+      "item": "KPI 기여도 계산 완료",
+      "completed": false
+    },
+    {
+      "item": "리스크 검토 완료",
+      "completed": false
+    },
+    {
+      "item": "다음주 계획 수립 완료",
+      "completed": false
+    },
+    {
+      "item": "학습 내용 정리 완료",
+      "completed": false
+    },
+    {
+      "item": "리더 검토 완료",
+      "completed": false
+    },
+    {
+      "item": "제출 준비 완료",
+      "completed": false
+    }
+  ]
+}
